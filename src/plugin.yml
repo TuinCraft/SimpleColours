@@ -1,0 +1,12 @@
+name: SimpleColours
+main: nl.tuincraft.blaatz0r.SimpleColours.SimpleColours
+description: SimpleColours is plugin to change the nickname colour of a player.
+version: 1.1
+commands:
+    colour:
+        description: use this to set the colour of a player's name
+        usage: |
+               /<command> [colour] - Changes your name colour
+               /<command> reset - Resets your colour to white
+               /<command> [name] [colour] - Changes the name colour of another player (Ops only)
+               /<command> [name] reset - Resets the colour of a player to white (Ops only)
